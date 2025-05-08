@@ -1,6 +1,13 @@
-planeseats={"flight1":10,"flight2":10,"flight3":10}
+planeseats={"flight 1":10,"flight 2":20,"flight 3":20}
+planeprice={"flight 1":100,"flight 2":150,"flight 3":200}
 name=input("What is your name? ")
-desiredflight=int(input("Which flight would you like to take? (1 for flight 1, 2 for flight 2, 3 for flight 3) "))
-desiredflight=desiredflight-1
-if desiredflight==0:
-    print(planeseats{"flight1"})
+desiredflight=(input("Which flight would you like to take? (flight 1, flight 2, or flight 3) "))
+print(planeseats[(desiredflight)])
+if (planeseats[(desiredflight)])>9:
+    desiredflightprice=(planeprice[(desiredflight)])*0.8
+     print("There is a discount available if you fly with us tomorrow. The flight will cost",(desiredflightprice)
+     "instead of",(planeseats[(desiredflight)]) )
+else:
+    desiredflightprice=(planeprice[(desiredflight)])*1
+    print("There is no discount available.")
+print(desiredflightprice)
