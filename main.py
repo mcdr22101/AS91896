@@ -12,7 +12,7 @@ LIST_VALIDFLIGHTS = ["flight 1", "flight 2", "flight 3"]
 name=("qqqqqqqqqqqqqqqqqqqqq")
 """asking the user for their name and making sure the name is not too long"""
 while len(name) > 20:
- name=input("What is your name? ")
+ name=input("What is your name? Please enter a name shorter than 21 characters.")
 print("Hello",(name)+". Please select a flight.")
 x=0
 """asking user which flight they will take"""
