@@ -29,7 +29,7 @@ def func_discount():
 print(planeseats[(desiredflight)])
 if (planeseats[(desiredflight)])>9:
     func_discount()
-"""telling user whether there is a discount available or not"""
+    """telling user whether there is a discount available or not"""
     print("There is a discount available if you fly with us tomorrow."
     "The flight will cost",(func_discount()),"NZD instead of",(desiredflightprice),"NZD.")
     if nextday==7:
